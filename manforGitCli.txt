@@ -1,0 +1,17 @@
+git  콘솔 매뉴얼
+
+설치   	sudo apt-get install git
+설정 		git config --global user.name "bugnetyama"
+		git config --global user.email "bugnetyama@gmail.com"
+
+도움말 	git help <verb>
+		git <verb> --help
+		man git-<verb>
+
+로컬저장소 만들기  	git init
+로컬저장소 복제 	git clone /로컬/저장소/경로
+
+상태보기 	git status
+		
+		Unstacked files  버전관리 제외된 파일들
+		
