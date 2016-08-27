@@ -13,5 +13,16 @@ git  콘솔 매뉴얼
 
 상태보기 	git status
 		
-		Unstacked files  버전관리 제외된 파일들
-		
+		Changes to be committed: 스태징 된 파일들
+		Untracked files: 버전관리 제외된 파일들
+
+버전관리에 스태징하는 명령  	git add 파일네임1 파일네임2;
+						(코밋후 편집수정후 다시 스태징할 때도 같음)
+						(스태징후 코밋전에 또 다시 편집수정후 스탱징할 때도 같음)	
+
+커밋		git commit -m '커밋메세지 블라 블라 ~ ';
+
+푸쉬		git push
+
+로그보기 	git log -p  (-p옵션은 변경된 내용까지 볼 때)
+
